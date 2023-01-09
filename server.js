@@ -15,5 +15,5 @@ app.use('/api', apiRoutes);
 app.use('/', htmlRoutes);
 
 app.listen(PORT, () => {
-    console.log(`Note Taker is now active at localhost: ${PORT}. TY!`);
+    console.log(`Note Taker is now live on localhost: ${PORT}. YAY!`);
   });
